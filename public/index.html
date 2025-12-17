@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Auto Git Push</title>
+<style>
+body { font-family: Arial, sans-serif; padding: 40px; background: #f2f2f2; }
+form { background: #fff; padding: 20px; border-radius: 8px; max-width: 500px; margin: auto; }
+input, button { display: block; width: 100%; margin-bottom: 15px; padding: 10px; font-size: 16px; }
+button { cursor: pointer; background: #007bff; color: #fff; border: none; border-radius: 5px; }
+</style>
+</head>
+<body>
+<h2 style="text-align:center;">Upload ZIP and Push to GitHub</h2>
+<form action="/upload" method="POST" enctype="multipart/form-data">
+  <label>GitHub Repo URL:</label>
+  <input type="text" name="repo" placeholder="https://github.com/username/repo.git" required>
+  
+  <label>GitHub Username:</label>
+  <input type="text" name="username" placeholder="GitHub username" required>
+  
+  <label>GitHub Email:</label>
+  <input type="email" name="email" placeholder="GitHub email" required>
+  
+  <label>GitHub Token:</label>
+  <input type="password" name="token" placeholder="Personal Access Token" required>
+  
+  <label>Commit Message:</label>
+  <input type="text" name="commitMessage" placeholder="Commit message" required>
+  
+  <label>ZIP File:</label>
+  <input type="file" name="zipfile" accept=".zip" required>
+  
+  <button type="submit">Upload & Push</button>
+</form>
+</body>
+</html>
