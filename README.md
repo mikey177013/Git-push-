@@ -1,6 +1,6 @@
 
 
-** Auto Git Push
+## Auto Git Push
 
 Auto Git Push is a web app that lets you upload a .zip file and automatically push its contents to a GitHub repository. No more manual git commands—just upload, fill in your GitHub info, and push.
 
@@ -9,7 +9,7 @@ Perfect for developers who want to quickly update projects or share files to a r
 
 ---
 
-Features
+## Features
 
 Upload a .zip file and extract all files automatically.
 
@@ -25,11 +25,9 @@ Secure: no personal info is stored, your GitHub token stays private.
 
 ---
 
-Demo & Contact
+## Demo & Contact
 
 GitHub: mikey177013
-
-Instagram: mikey.phoenix177013
 
 
 Follow me for updates, tips, and cool projects.
@@ -37,7 +35,7 @@ Follow me for updates, tips, and cool projects.
 
 ---
 
-How It Works
+## How It Works
 
 1. Upload a .zip file with your project.
 
@@ -57,7 +55,7 @@ It’s that simple!
 
 ---
 
-Installation (For Local Use)
+## Installation (For Local Use)
 
 1. Clone this repository:
 
@@ -91,7 +89,7 @@ http://localhost:3000
 
 ---
 
-Deployment (Render)
+## Deployment (Render)
 ```
 Root directory: project root (auto-git-push-generic/)
 
@@ -105,7 +103,7 @@ The server automatically uses Render’s PORT environment variable.
 
 ---
 
-Security & Privacy
+## Security & Privacy
 
 Your GitHub token is never stored—it’s used only to push files in that session.
 
@@ -119,7 +117,7 @@ Feel free to use this safely with your private repos.
 
 ---
 
-Technology Stack
+## Technology Stack
 
 Node.js & Express – Backend server
 
@@ -135,7 +133,7 @@ HTML/CSS – Web interface
 
 ---
 
-License
+## License
 
 This project is MIT Licensed.
 
